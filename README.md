@@ -1,5 +1,9 @@
 # Setting Up the Project
 
+## Live Link
+
+You can view the live version of the project at [https://cluep-assignment-web.onrender.com](https://cluep-assignment-web.onrender.com).
+
 ## Cloning the Repository
 
 First, clone the repository from [https://github.com/Buerkem/cluep-assignment](https://github.com/Buerkem/cluep-assignment):
@@ -57,7 +61,7 @@ This will create a directory named `cluep-assignment` with the project's files.
 
 ## Running Backend Tests
 
-1. Ensure the backend server is not **running**.
+1. Ensure the backend server is **not running**.
 2. In the base folder, run the tests:
 
    ```bash
@@ -80,9 +84,9 @@ This will create a directory named `cluep-assignment` with the project's files.
    npx cypress run
    ```
 
-## Debugging the Application
+## Changing Ports
 
-- **Changing Ports**: To change the port numbers used by the application, update the `.env` file in the base directory, and adjust the `proxy` settings in both the `package.json` files:
+-  To change the port numbers used by the application, update the `.env` file in the base directory, and adjust the `proxy` settings in both the `package.json` files:
 
   - In the base directory's `package.json`, update the `proxy` field.
   - In the `frontend/package.json`, also update the `proxy` field to match the new port if needed.
